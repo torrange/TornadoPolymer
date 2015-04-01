@@ -17,7 +17,7 @@ class MainHandler(tornado.web.RequestHandler):
 #JSON Handlers
 class JSONHandler(tornado.web.RequestHandler):
   def get(self):
-    self.write({"x" : "fuck you buddy"})
+    self.write({"test" : "some test JSON"})
 
 
 
